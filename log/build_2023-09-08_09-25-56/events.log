@@ -1,0 +1,570 @@
+[0.000000] (-) TimerEvent: {}
+[0.001113] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001164] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.016317] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.017281] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.018457] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'nerglite'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1464'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/nerglite/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/nerglite'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nerglite'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/nerglite/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/nerglite/.local/share'), ('XDG_CONFIG_HOME', '/home/nerglite/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/nerglite/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX6dNLvt/agent.1399'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095644] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.099256] (-) TimerEvent: {}
+[0.107590] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.122806] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.135241] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.141881] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.143084] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.158168] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.173100] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.177941] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.190269] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199378] (-) TimerEvent: {}
+[0.200086] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.204581] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.214901] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.217532] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.237208] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.244882] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.251444] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.260206] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[0.268833] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.299493] (-) TimerEvent: {}
+[0.303602] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtle_teleop_key\n'}
+[0.306871] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[0.324159] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.328050] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[0.350922] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim\n'}
+[0.367061] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target mimic\n'}
+[0.396950] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[0.399594] (-) TimerEvent: {}
+[0.426865] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[0.470603] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[0.493349] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.493632] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.499878] (-) TimerEvent: {}
+[0.522504] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.525365] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.545794] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.594205] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.599989] (-) TimerEvent: {}
+[0.700366] (-) TimerEvent: {}
+[0.748188] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.749403] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.749738] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.750063] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.753903] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.754905] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.794510] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.800468] (-) TimerEvent: {}
+[0.900811] (-) TimerEvent: {}
+[1.001147] (-) TimerEvent: {}
+[1.101543] (-) TimerEvent: {}
+[1.201917] (-) TimerEvent: {}
+[1.302296] (-) TimerEvent: {}
+[1.402693] (-) TimerEvent: {}
+[1.503104] (-) TimerEvent: {}
+[1.603505] (-) TimerEvent: {}
+[1.703870] (-) TimerEvent: {}
+[1.804247] (-) TimerEvent: {}
+[1.904653] (-) TimerEvent: {}
+[2.005034] (-) TimerEvent: {}
+[2.105428] (-) TimerEvent: {}
+[2.205814] (-) TimerEvent: {}
+[2.306200] (-) TimerEvent: {}
+[2.406574] (-) TimerEvent: {}
+[2.506949] (-) TimerEvent: {}
+[2.607317] (-) TimerEvent: {}
+[2.707701] (-) TimerEvent: {}
+[2.808104] (-) TimerEvent: {}
+[2.908515] (-) TimerEvent: {}
+[3.008909] (-) TimerEvent: {}
+[3.109306] (-) TimerEvent: {}
+[3.209693] (-) TimerEvent: {}
+[3.310047] (-) TimerEvent: {}
+[3.410406] (-) TimerEvent: {}
+[3.510779] (-) TimerEvent: {}
+[3.611174] (-) TimerEvent: {}
+[3.711574] (-) TimerEvent: {}
+[3.811973] (-) TimerEvent: {}
+[3.912365] (-) TimerEvent: {}
+[4.012761] (-) TimerEvent: {}
+[4.113148] (-) TimerEvent: {}
+[4.213536] (-) TimerEvent: {}
+[4.313918] (-) TimerEvent: {}
+[4.414304] (-) TimerEvent: {}
+[4.514683] (-) TimerEvent: {}
+[4.615060] (-) TimerEvent: {}
+[4.715465] (-) TimerEvent: {}
+[4.815852] (-) TimerEvent: {}
+[4.916221] (-) TimerEvent: {}
+[5.016594] (-) TimerEvent: {}
+[5.116946] (-) TimerEvent: {}
+[5.217296] (-) TimerEvent: {}
+[5.317655] (-) TimerEvent: {}
+[5.418040] (-) TimerEvent: {}
+[5.518437] (-) TimerEvent: {}
+[5.618811] (-) TimerEvent: {}
+[5.719186] (-) TimerEvent: {}
+[5.819573] (-) TimerEvent: {}
+[5.919972] (-) TimerEvent: {}
+[6.020371] (-) TimerEvent: {}
+[6.120765] (-) TimerEvent: {}
+[6.221158] (-) TimerEvent: {}
+[6.321553] (-) TimerEvent: {}
+[6.421943] (-) TimerEvent: {}
+[6.522322] (-) TimerEvent: {}
+[6.622710] (-) TimerEvent: {}
+[6.723086] (-) TimerEvent: {}
+[6.823458] (-) TimerEvent: {}
+[6.923847] (-) TimerEvent: {}
+[7.024247] (-) TimerEvent: {}
+[7.124671] (-) TimerEvent: {}
+[7.225062] (-) TimerEvent: {}
+[7.325457] (-) TimerEvent: {}
+[7.425852] (-) TimerEvent: {}
+[7.526245] (-) TimerEvent: {}
+[7.626625] (-) TimerEvent: {}
+[7.727029] (-) TimerEvent: {}
+[7.827424] (-) TimerEvent: {}
+[7.927825] (-) TimerEvent: {}
+[8.028256] (-) TimerEvent: {}
+[8.128669] (-) TimerEvent: {}
+[8.229061] (-) TimerEvent: {}
+[8.329434] (-) TimerEvent: {}
+[8.429803] (-) TimerEvent: {}
+[8.530192] (-) TimerEvent: {}
+[8.630575] (-) TimerEvent: {}
+[8.730960] (-) TimerEvent: {}
+[8.831315] (-) TimerEvent: {}
+[8.931668] (-) TimerEvent: {}
+[9.032024] (-) TimerEvent: {}
+[9.132377] (-) TimerEvent: {}
+[9.232730] (-) TimerEvent: {}
+[9.333074] (-) TimerEvent: {}
+[9.433428] (-) TimerEvent: {}
+[9.533813] (-) TimerEvent: {}
+[9.634179] (-) TimerEvent: {}
+[9.734547] (-) TimerEvent: {}
+[9.834901] (-) TimerEvent: {}
+[9.935264] (-) TimerEvent: {}
+[10.035657] (-) TimerEvent: {}
+[10.136054] (-) TimerEvent: {}
+[10.236451] (-) TimerEvent: {}
+[10.336819] (-) TimerEvent: {}
+[10.437207] (-) TimerEvent: {}
+[10.537591] (-) TimerEvent: {}
+[10.637995] (-) TimerEvent: {}
+[10.738362] (-) TimerEvent: {}
+[10.838752] (-) TimerEvent: {}
+[10.939143] (-) TimerEvent: {}
+[11.039532] (-) TimerEvent: {}
+[11.139924] (-) TimerEvent: {}
+[11.240327] (-) TimerEvent: {}
+[11.340714] (-) TimerEvent: {}
+[11.441096] (-) TimerEvent: {}
+[11.541487] (-) TimerEvent: {}
+[11.641877] (-) TimerEvent: {}
+[11.742269] (-) TimerEvent: {}
+[11.842654] (-) TimerEvent: {}
+[11.943034] (-) TimerEvent: {}
+[12.043421] (-) TimerEvent: {}
+[12.143809] (-) TimerEvent: {}
+[12.244199] (-) TimerEvent: {}
+[12.344601] (-) TimerEvent: {}
+[12.444985] (-) TimerEvent: {}
+[12.545368] (-) TimerEvent: {}
+[12.645763] (-) TimerEvent: {}
+[12.746151] (-) TimerEvent: {}
+[12.846544] (-) TimerEvent: {}
+[12.946929] (-) TimerEvent: {}
+[13.047327] (-) TimerEvent: {}
+[13.147712] (-) TimerEvent: {}
+[13.248105] (-) TimerEvent: {}
+[13.348509] (-) TimerEvent: {}
+[13.448899] (-) TimerEvent: {}
+[13.549295] (-) TimerEvent: {}
+[13.649684] (-) TimerEvent: {}
+[13.750091] (-) TimerEvent: {}
+[13.850480] (-) TimerEvent: {}
+[13.950874] (-) TimerEvent: {}
+[14.051261] (-) TimerEvent: {}
+[14.151650] (-) TimerEvent: {}
+[14.252036] (-) TimerEvent: {}
+[14.352445] (-) TimerEvent: {}
+[14.452832] (-) TimerEvent: {}
+[14.553214] (-) TimerEvent: {}
+[14.653588] (-) TimerEvent: {}
+[14.753975] (-) TimerEvent: {}
+[14.854366] (-) TimerEvent: {}
+[14.954747] (-) TimerEvent: {}
+[15.055138] (-) TimerEvent: {}
+[15.155530] (-) TimerEvent: {}
+[15.255918] (-) TimerEvent: {}
+[15.356329] (-) TimerEvent: {}
+[15.456704] (-) TimerEvent: {}
+[15.557078] (-) TimerEvent: {}
+[15.657452] (-) TimerEvent: {}
+[15.757836] (-) TimerEvent: {}
+[15.858215] (-) TimerEvent: {}
+[15.958603] (-) TimerEvent: {}
+[16.058972] (-) TimerEvent: {}
+[16.159425] (-) TimerEvent: {}
+[16.259848] (-) TimerEvent: {}
+[16.360240] (-) TimerEvent: {}
+[16.460628] (-) TimerEvent: {}
+[16.560989] (-) TimerEvent: {}
+[16.661355] (-) TimerEvent: {}
+[16.761723] (-) TimerEvent: {}
+[16.862097] (-) TimerEvent: {}
+[16.962480] (-) TimerEvent: {}
+[17.062861] (-) TimerEvent: {}
+[17.163275] (-) TimerEvent: {}
+[17.259506] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[17.263403] (-) TimerEvent: {}
+[17.363703] (-) TimerEvent: {}
+[17.464082] (-) TimerEvent: {}
+[17.564547] (-) TimerEvent: {}
+[17.664930] (-) TimerEvent: {}
+[17.765330] (-) TimerEvent: {}
+[17.865731] (-) TimerEvent: {}
+[17.966137] (-) TimerEvent: {}
+[18.066547] (-) TimerEvent: {}
+[18.166954] (-) TimerEvent: {}
+[18.267366] (-) TimerEvent: {}
+[18.367773] (-) TimerEvent: {}
+[18.468179] (-) TimerEvent: {}
+[18.568619] (-) TimerEvent: {}
+[18.669008] (-) TimerEvent: {}
+[18.769398] (-) TimerEvent: {}
+[18.869749] (-) TimerEvent: {}
+[18.970089] (-) TimerEvent: {}
+[19.070426] (-) TimerEvent: {}
+[19.170796] (-) TimerEvent: {}
+[19.271136] (-) TimerEvent: {}
+[19.371484] (-) TimerEvent: {}
+[19.471834] (-) TimerEvent: {}
+[19.572172] (-) TimerEvent: {}
+[19.672502] (-) TimerEvent: {}
+[19.772856] (-) TimerEvent: {}
+[19.873206] (-) TimerEvent: {}
+[19.973540] (-) TimerEvent: {}
+[20.021932] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[20.040920] (turtlesim) CommandEnded: {'returncode': 0}
+[20.073654] (-) TimerEvent: {}
+[20.174033] (-) TimerEvent: {}
+[20.274500] (-) TimerEvent: {}
+[20.352694] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[20.366376] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim'], 'cwd': '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'nerglite'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1464'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/nerglite/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/nerglite'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nerglite'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/nerglite/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/nerglite/.local/share'), ('XDG_CONFIG_HOME', '/home/nerglite/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/nerglite/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX6dNLvt/agent.1399'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.374614] (-) TimerEvent: {}
+[20.379202] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.379568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[20.379977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.380274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.380472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.380652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[20.380839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[20.381011] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[20.381182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[20.381354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[20.381800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.381973] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[20.382146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.382317] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[20.382489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[20.382659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[20.382830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[20.383001] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[20.383172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[20.383342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[20.383513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[20.383724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[20.383895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.384066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.384236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.384455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[20.384628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[20.384798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[20.384970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[20.385141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[20.385480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[20.385665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[20.385815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[20.385957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[20.386097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[20.386243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[20.386750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[20.387002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[20.387248] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[20.387427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[20.387781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[20.387962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[20.388191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[20.388367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[20.388542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[20.388742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[20.388914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[20.389085] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[20.389255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[20.389426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[20.389597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[20.389768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[20.389938] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[20.390108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.390278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.390449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.390619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[20.390791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.391001] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.391177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[20.391348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[20.391519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.391689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.391859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.392236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[20.392433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[20.392606] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[20.392777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[20.392949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[20.393338] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[20.393487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.393645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.393817] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.393988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[20.394159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[20.394330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[20.394502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[20.394672] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.394843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[20.395014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.395184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[20.395355] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[20.395526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[20.395696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[20.395911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[20.396234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[20.396523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[20.396670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.396830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.397009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[20.397180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[20.397355] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[20.397526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[20.397729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[20.397900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[20.398071] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[20.398243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[20.398415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[20.398587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[20.398759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[20.399052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[20.399201] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[20.399345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[20.399490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[20.399634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[20.399778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[20.399922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[20.400066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[20.400224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[20.400390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.400535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.400678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.400822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[20.400964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.401117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.401262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.401407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.401550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[20.401694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.401837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.401980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.402123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.402267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[20.402410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.402554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.402697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.402840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.402983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.403126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.403294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.403437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.403580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.403722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[20.403865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[20.404008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.404151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.404315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[20.404466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[20.404608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[20.404751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[20.404905] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.405050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.405192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.405334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[20.405476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[20.405619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[20.405767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[20.405910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[20.406052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[20.406195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[20.406349] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[20.406492] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[20.406635] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[20.406777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[20.406920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[20.407062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim\n'}
+[20.407205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[20.407362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[20.407505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.407648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[20.407790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[20.407933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[20.408076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.408218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[20.408364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.408453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[20.408536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[20.408630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[20.408713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.408795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[20.408876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.408966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[20.409048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.409130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[20.409212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.409294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[20.409374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.409455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[20.409535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[20.409615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[20.409696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[20.409776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[20.409856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[20.409936] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[20.410016] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[20.410112] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[20.410194] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[20.410276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[20.410356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[20.410437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[20.410518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[20.410607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[20.410697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[20.410779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[20.410860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[20.410941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[20.411021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[20.411101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[20.411181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[20.411261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[20.411340] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[20.411420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[20.411499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[20.411579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[20.411660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[20.411740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[20.411820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[20.411900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[20.411982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[20.412063] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[20.412143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[20.412224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.412342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.412441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.412525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[20.412604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.412685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.412765] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[20.443372] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[20.443598] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[20.443702] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[20.443817] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[20.450272] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.450825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.451380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.452030] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[20.452468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[20.452733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[20.452961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[20.453089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[20.453249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[20.453452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[20.453602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[20.453796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[20.453956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[20.454057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[20.454217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[20.454341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[20.454468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[20.454673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[20.454940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[20.455098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[20.455248] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[20.455502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[20.455658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[20.455807] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[20.455956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[20.456141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[20.456317] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[20.456471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[20.456614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[20.456756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[20.456898] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[20.469728] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[20.470048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[20.470667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/turtlesim/draw_square\n'}
+[20.471277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/lib/turtlesim/mimic\n'}
+[20.471556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images\n'}
+[20.471791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[20.471984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[20.472146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[20.472323] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[20.472471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[20.472738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[20.472889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[20.473046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[20.473161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[20.473318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/launch\n'}
+[20.473477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[20.473630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[20.473781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[20.473893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[20.473986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[20.474155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[20.474432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[20.474592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[20.474736] (-) TimerEvent: {}
+[20.474991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[20.475191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[20.475282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[20.475421] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/package.dsv\n'}
+[20.475522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[20.475646] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[20.475746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.475839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.475935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.476025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[20.476123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.476280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.476399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.476490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.476636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[20.476825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.476931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.477029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.477122] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[20.477277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.477496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[20.477654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.477809] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[20.477962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.478109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.478292] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.478388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.478478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.478623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.478707] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[20.478788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[20.478869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim/share/turtlesim/package.xml\n'}
+[20.481663] (turtlesim) CommandEnded: {'returncode': 0}
+[20.574867] (-) TimerEvent: {}
+[20.675237] (-) TimerEvent: {}
+[20.775530] (-) TimerEvent: {}
+[20.837882] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[20.838845] (-) EventReactorShutdown: {}
