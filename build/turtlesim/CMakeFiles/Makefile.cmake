@@ -982,6 +982,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/turtlesim_node.dir/DependInfo.cmake"
+  "CMakeFiles/turtle_go_here.dir/DependInfo.cmake"
+  "CMakeFiles/turtle_angle.dir/DependInfo.cmake"
   "CMakeFiles/turtle_move.dir/DependInfo.cmake"
   "CMakeFiles/turtle_teleop_key.dir/DependInfo.cmake"
   "CMakeFiles/draw_square.dir/DependInfo.cmake"

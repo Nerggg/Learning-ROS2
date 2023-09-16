@@ -406,6 +406,32 @@ turtlesim_node/fast:
 .PHONY : turtlesim_node/fast
 
 #=============================================================================
+# Target rules for targets named turtle_go_here
+
+# Build rule for target.
+turtle_go_here: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_go_here
+.PHONY : turtle_go_here
+
+# fast build rule for target.
+turtle_go_here/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_go_here.dir/build.make CMakeFiles/turtle_go_here.dir/build
+.PHONY : turtle_go_here/fast
+
+#=============================================================================
+# Target rules for targets named turtle_angle
+
+# Build rule for target.
+turtle_angle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_angle
+.PHONY : turtle_angle
+
+# fast build rule for target.
+turtle_angle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_angle.dir/build.make CMakeFiles/turtle_angle.dir/build
+.PHONY : turtle_angle/fast
+
+#=============================================================================
 # Target rules for targets named turtle_move
 
 # Build rule for target.
@@ -2126,6 +2152,30 @@ src/turtle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_node.dir/build.make CMakeFiles/turtlesim_node.dir/src/turtle.cpp.s
 .PHONY : src/turtle.cpp.s
 
+src/turtle_angle.o: src/turtle_angle.cpp.o
+.PHONY : src/turtle_angle.o
+
+# target to build an object file
+src/turtle_angle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_angle.dir/build.make CMakeFiles/turtle_angle.dir/src/turtle_angle.cpp.o
+.PHONY : src/turtle_angle.cpp.o
+
+src/turtle_angle.i: src/turtle_angle.cpp.i
+.PHONY : src/turtle_angle.i
+
+# target to preprocess a source file
+src/turtle_angle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_angle.dir/build.make CMakeFiles/turtle_angle.dir/src/turtle_angle.cpp.i
+.PHONY : src/turtle_angle.cpp.i
+
+src/turtle_angle.s: src/turtle_angle.cpp.s
+.PHONY : src/turtle_angle.s
+
+# target to generate assembly for a file
+src/turtle_angle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_angle.dir/build.make CMakeFiles/turtle_angle.dir/src/turtle_angle.cpp.s
+.PHONY : src/turtle_angle.cpp.s
+
 src/turtle_frame.o: src/turtle_frame.cpp.o
 .PHONY : src/turtle_frame.o
 
@@ -2149,6 +2199,30 @@ src/turtle_frame.s: src/turtle_frame.cpp.s
 src/turtle_frame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_node.dir/build.make CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.s
 .PHONY : src/turtle_frame.cpp.s
+
+src/turtle_go_here.o: src/turtle_go_here.cpp.o
+.PHONY : src/turtle_go_here.o
+
+# target to build an object file
+src/turtle_go_here.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_go_here.dir/build.make CMakeFiles/turtle_go_here.dir/src/turtle_go_here.cpp.o
+.PHONY : src/turtle_go_here.cpp.o
+
+src/turtle_go_here.i: src/turtle_go_here.cpp.i
+.PHONY : src/turtle_go_here.i
+
+# target to preprocess a source file
+src/turtle_go_here.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_go_here.dir/build.make CMakeFiles/turtle_go_here.dir/src/turtle_go_here.cpp.i
+.PHONY : src/turtle_go_here.cpp.i
+
+src/turtle_go_here.s: src/turtle_go_here.cpp.s
+.PHONY : src/turtle_go_here.s
+
+# target to generate assembly for a file
+src/turtle_go_here.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_go_here.dir/build.make CMakeFiles/turtle_go_here.dir/src/turtle_go_here.cpp.s
+.PHONY : src/turtle_go_here.cpp.s
 
 src/turtle_move.o: src/turtle_move.cpp.o
 .PHONY : src/turtle_move.o
@@ -2292,6 +2366,8 @@ help:
 	@echo "... uninstall"
 	@echo "... draw_square"
 	@echo "... mimic"
+	@echo "... turtle_angle"
+	@echo "... turtle_go_here"
 	@echo "... turtle_move"
 	@echo "... turtle_teleop_key"
 	@echo "... turtlesim__rosidl_generator_c"
@@ -2513,9 +2589,15 @@ help:
 	@echo "... src/turtle.o"
 	@echo "... src/turtle.i"
 	@echo "... src/turtle.s"
+	@echo "... src/turtle_angle.o"
+	@echo "... src/turtle_angle.i"
+	@echo "... src/turtle_angle.s"
 	@echo "... src/turtle_frame.o"
 	@echo "... src/turtle_frame.i"
 	@echo "... src/turtle_frame.s"
+	@echo "... src/turtle_go_here.o"
+	@echo "... src/turtle_go_here.i"
+	@echo "... src/turtle_go_here.s"
 	@echo "... src/turtle_move.o"
 	@echo "... src/turtle_move.i"
 	@echo "... src/turtle_move.s"

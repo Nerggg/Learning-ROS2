@@ -16,6 +16,8 @@
 /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir
 /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir
 /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtlesim_node.dir
+/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtle_go_here.dir
+/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtle_angle.dir
 /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtle_move.dir
 /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtle_teleop_key.dir
 /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/draw_square.dir

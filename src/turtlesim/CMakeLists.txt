@@ -51,6 +51,12 @@ target_link_libraries(turtlesim_node Qt5::Widgets)
 ament_target_dependencies(turtlesim_node ${dependencies})
 target_link_libraries(turtlesim_node "${cpp_typesupport_target}")
 
+add_executable(turtle_go_here src/turtle_go_here.cpp)
+ament_target_dependencies(turtle_go_here ${dependencies})
+target_link_libraries(turtle_go_here "${cpp_typesupport_target}")
+add_executable(turtle_angle src/turtle_angle.cpp)
+ament_target_dependencies(turtle_angle ${dependencies})
+target_link_libraries(turtle_angle "${cpp_typesupport_target}")
 add_executable(turtle_move src/turtle_move.cpp)
 ament_target_dependencies(turtle_move ${dependencies})
 target_link_libraries(turtle_move "${cpp_typesupport_target}")
@@ -64,7 +70,7 @@ add_executable(mimic tutorials/mimic.cpp)
 ament_target_dependencies(mimic ${dependencies})
 target_link_libraries(mimic "${cpp_typesupport_target}")
 
-install(TARGETS turtlesim_node turtle_teleop_key turtle_move draw_square mimic
+install(TARGETS turtlesim_node turtle_teleop_key turtle_move turtle_angle turtle_go_here draw_square mimic
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY images
