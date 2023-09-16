@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim"
+CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim"
+CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/CMakeFiles" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -404,6 +404,19 @@ turtlesim_node: cmake_check_build_system
 turtlesim_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_node.dir/build.make CMakeFiles/turtlesim_node.dir/build
 .PHONY : turtlesim_node/fast
+
+#=============================================================================
+# Target rules for targets named turtle_move
+
+# Build rule for target.
+turtle_move: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_move
+.PHONY : turtle_move
+
+# fast build rule for target.
+turtle_move/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_move.dir/build.make CMakeFiles/turtle_move.dir/build
+.PHONY : turtle_move/fast
 
 #=============================================================================
 # Target rules for targets named turtle_teleop_key
@@ -2137,6 +2150,30 @@ src/turtle_frame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_node.dir/build.make CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.s
 .PHONY : src/turtle_frame.cpp.s
 
+src/turtle_move.o: src/turtle_move.cpp.o
+.PHONY : src/turtle_move.o
+
+# target to build an object file
+src/turtle_move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_move.dir/build.make CMakeFiles/turtle_move.dir/src/turtle_move.cpp.o
+.PHONY : src/turtle_move.cpp.o
+
+src/turtle_move.i: src/turtle_move.cpp.i
+.PHONY : src/turtle_move.i
+
+# target to preprocess a source file
+src/turtle_move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_move.dir/build.make CMakeFiles/turtle_move.dir/src/turtle_move.cpp.i
+.PHONY : src/turtle_move.cpp.i
+
+src/turtle_move.s: src/turtle_move.cpp.s
+.PHONY : src/turtle_move.s
+
+# target to generate assembly for a file
+src/turtle_move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_move.dir/build.make CMakeFiles/turtle_move.dir/src/turtle_move.cpp.s
+.PHONY : src/turtle_move.cpp.s
+
 src/turtlesim.o: src/turtlesim.cpp.o
 .PHONY : src/turtlesim.o
 
@@ -2255,6 +2292,7 @@ help:
 	@echo "... uninstall"
 	@echo "... draw_square"
 	@echo "... mimic"
+	@echo "... turtle_move"
 	@echo "... turtle_teleop_key"
 	@echo "... turtlesim__rosidl_generator_c"
 	@echo "... turtlesim__rosidl_generator_py"
@@ -2478,6 +2516,9 @@ help:
 	@echo "... src/turtle_frame.o"
 	@echo "... src/turtle_frame.i"
 	@echo "... src/turtle_frame.s"
+	@echo "... src/turtle_move.o"
+	@echo "... src/turtle_move.i"
+	@echo "... src/turtle_move.s"
 	@echo "... src/turtlesim.o"
 	@echo "... src/turtlesim.i"
 	@echo "... src/turtlesim.s"

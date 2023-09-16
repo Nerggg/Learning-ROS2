@@ -1,5 +1,5 @@
 CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/src/turtlesim/tutorials/mimic.cpp \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim/tutorials/mimic.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -599,10 +599,10 @@ CMakeFiles/mimic.dir/tutorials/mimic.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/pose.hpp \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__struct.hpp \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__builder.hpp \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__traits.hpp \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/pose.hpp \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__struct.hpp \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__builder.hpp \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/detail/pose__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \

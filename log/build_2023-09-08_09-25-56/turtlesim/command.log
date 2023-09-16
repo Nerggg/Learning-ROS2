@@ -1,4 +1,0 @@
-Invoking command in '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim -- -j4 -l4
-Invoked command in '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim -- -j4 -l4
-Invoking command in '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim
-Invoked command in '/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim

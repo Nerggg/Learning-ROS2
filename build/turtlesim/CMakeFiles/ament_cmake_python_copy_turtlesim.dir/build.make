@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim"
+CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim"
+CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim"
 
 # Utility rule file for ament_cmake_python_copy_turtlesim.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_turtlesim.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_turtlesim.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_turtlesim:
-	/usr/bin/cmake -E copy_directory /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_py/turtlesim /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/ament_cmake_python/turtlesim/turtlesim
+	/usr/bin/cmake -E copy_directory /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_py/turtlesim /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/ament_cmake_python/turtlesim/turtlesim
 
 ament_cmake_python_copy_turtlesim: CMakeFiles/ament_cmake_python_copy_turtlesim
 ament_cmake_python_copy_turtlesim: CMakeFiles/ament_cmake_python_copy_turtlesim.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_turtlesim.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_turtlesim.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_turtlesim.dir/depend:
-	cd "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/CMakeFiles/ament_cmake_python_copy_turtlesim.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/ament_cmake_python_copy_turtlesim.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_turtlesim.dir/depend
 

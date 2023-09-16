@@ -1,7 +1,7 @@
 CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o: \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c \
  /usr/include/stdc-predef.h \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.h \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -43,8 +43,8 @@ CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/de
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_c/turtlesim/msg/rosidl_generator_c__visibility_control.h \
- /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/rosidl_generator_c/turtlesim/srv/detail/spawn__struct.h \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_c/turtlesim/msg/rosidl_generator_c__visibility_control.h \
+ /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_c/turtlesim/srv/detail/spawn__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

@@ -1,4 +1,4 @@
--I/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim/include
+-I/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim/include
 -I/usr/include/x86_64-linux-gnu/qt5
 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets
 -I/usr/include/x86_64-linux-gnu/qt5/QtGui
@@ -6,5 +6,5 @@
 -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++
 -DROS_PACKAGE_NAME="turtlesim"
 -o
-/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
-/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim/include/turtlesim/turtle_frame.h
+/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/include/turtlesim/moc_turtle_frame.cpp
+/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim/include/turtlesim/turtle_frame.h

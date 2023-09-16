@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim"
+CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim"
+CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim"
 
 # Utility rule file for turtlesim__cpp.
 
@@ -129,8 +129,8 @@ rosidl_generator_cpp/turtlesim/action/rotate_absolute.hpp: /opt/ros/humble/share
 rosidl_generator_cpp/turtlesim/action/rotate_absolute.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/turtlesim/action/rotate_absolute.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/turtlesim/action/rotate_absolute.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/rosidl_generator_cpp__arguments.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/rosidl_generator_cpp__arguments.json"
 
 rosidl_generator_cpp/turtlesim/action/detail/rotate_absolute__builder.hpp: rosidl_generator_cpp/turtlesim/action/rotate_absolute.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/turtlesim/action/detail/rotate_absolute__builder.hpp
@@ -270,6 +270,6 @@ CMakeFiles/turtlesim__cpp.dir/clean:
 .PHONY : CMakeFiles/turtlesim__cpp.dir/clean
 
 CMakeFiles/turtlesim__cpp.dir/depend:
-	cd "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/CMakeFiles/turtlesim__cpp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtlesim__cpp.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/turtlesim__cpp.dir/depend
 

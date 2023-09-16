@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim/tutorials/teleop_turtle_key.cpp" "CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o" "gcc" "CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o.d"
+  "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim/tutorials/teleop_turtle_key.cpp" "CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o" "gcc" "CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/DependInfo.cmake"
+  "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,0 +1,571 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001750] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.017522] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.019007] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.020649] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'nerglite'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1387'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/nerglite/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/nerglite'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nerglite'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/nerglite/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/nerglite/.local/share'), ('XDG_CONFIG_HOME', '/home/nerglite/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/nerglite/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX7sXxTq/agent.1313'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/home/nerglite/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099653] (-) TimerEvent: {}
+[0.101042] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.114745] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.133704] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.142836] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.144614] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.147786] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.162866] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.177482] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.183821] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.193288] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199769] (-) TimerEvent: {}
+[0.207248] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.209681] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.217623] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.225292] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.241774] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.246628] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.258703] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.266049] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_move\x1b[0m\n'}
+[0.269984] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[0.299881] (-) TimerEvent: {}
+[0.304804] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtle_move.dir/src/turtle_move.cpp.o\x1b[0m\n'}
+[0.313387] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtle_teleop_key\n'}
+[0.327642] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim_node\n'}
+[0.337921] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.373159] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[0.378629] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target draw_square\n'}
+[0.399999] (-) TimerEvent: {}
+[0.425870] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim\n'}
+[0.474454] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.500113] (-) TimerEvent: {}
+[0.600469] (-) TimerEvent: {}
+[0.700837] (-) TimerEvent: {}
+[0.801212] (-) TimerEvent: {}
+[0.901654] (-) TimerEvent: {}
+[1.002004] (-) TimerEvent: {}
+[1.008036] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.010012] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.010373] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.010800] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.016417] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.017972] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.077913] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.102121] (-) TimerEvent: {}
+[1.202489] (-) TimerEvent: {}
+[1.303018] (-) TimerEvent: {}
+[1.403539] (-) TimerEvent: {}
+[1.504083] (-) TimerEvent: {}
+[1.604611] (-) TimerEvent: {}
+[1.704989] (-) TimerEvent: {}
+[1.805358] (-) TimerEvent: {}
+[1.905775] (-) TimerEvent: {}
+[2.006183] (-) TimerEvent: {}
+[2.106717] (-) TimerEvent: {}
+[2.207232] (-) TimerEvent: {}
+[2.307701] (-) TimerEvent: {}
+[2.408074] (-) TimerEvent: {}
+[2.508449] (-) TimerEvent: {}
+[2.608830] (-) TimerEvent: {}
+[2.709206] (-) TimerEvent: {}
+[2.809583] (-) TimerEvent: {}
+[2.909943] (-) TimerEvent: {}
+[3.010306] (-) TimerEvent: {}
+[3.110671] (-) TimerEvent: {}
+[3.211056] (-) TimerEvent: {}
+[3.311455] (-) TimerEvent: {}
+[3.411817] (-) TimerEvent: {}
+[3.512185] (-) TimerEvent: {}
+[3.612547] (-) TimerEvent: {}
+[3.712899] (-) TimerEvent: {}
+[3.813260] (-) TimerEvent: {}
+[3.913642] (-) TimerEvent: {}
+[4.014010] (-) TimerEvent: {}
+[4.114378] (-) TimerEvent: {}
+[4.163438] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim__py\n'}
+[4.200294] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[4.200739] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[4.214496] (-) TimerEvent: {}
+[4.314916] (-) TimerEvent: {}
+[4.415321] (-) TimerEvent: {}
+[4.486874] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[4.515446] (-) TimerEvent: {}
+[4.594215] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[4.615570] (-) TimerEvent: {}
+[4.716127] (-) TimerEvent: {}
+[4.779533] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[4.816253] (-) TimerEvent: {}
+[4.887802] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[4.916391] (-) TimerEvent: {}
+[5.016980] (-) TimerEvent: {}
+[5.084317] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[5.117108] (-) TimerEvent: {}
+[5.194863] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[5.217234] (-) TimerEvent: {}
+[5.317731] (-) TimerEvent: {}
+[5.418128] (-) TimerEvent: {}
+[5.439327] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[5.518273] (-) TimerEvent: {}
+[5.540209] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_generator_py\n'}
+[5.583531] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.583821] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.618394] (-) TimerEvent: {}
+[5.718805] (-) TimerEvent: {}
+[5.819236] (-) TimerEvent: {}
+[5.919652] (-) TimerEvent: {}
+[6.005205] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.019797] (-) TimerEvent: {}
+[6.020167] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.105319] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[6.119016] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.119867] (-) TimerEvent: {}
+[6.148873] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.220016] (-) TimerEvent: {}
+[6.320561] (-) TimerEvent: {}
+[6.421106] (-) TimerEvent: {}
+[6.521682] (-) TimerEvent: {}
+[6.579889] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.621804] (-) TimerEvent: {}
+[6.676332] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[6.721926] (-) TimerEvent: {}
+[6.822460] (-) TimerEvent: {}
+[6.923001] (-) TimerEvent: {}
+[7.023544] (-) TimerEvent: {}
+[7.123929] (-) TimerEvent: {}
+[7.224411] (-) TimerEvent: {}
+[7.324890] (-) TimerEvent: {}
+[7.425368] (-) TimerEvent: {}
+[7.525853] (-) TimerEvent: {}
+[7.626259] (-) TimerEvent: {}
+[7.726668] (-) TimerEvent: {}
+[7.827074] (-) TimerEvent: {}
+[7.927456] (-) TimerEvent: {}
+[8.027835] (-) TimerEvent: {}
+[8.128244] (-) TimerEvent: {}
+[8.228646] (-) TimerEvent: {}
+[8.329054] (-) TimerEvent: {}
+[8.429478] (-) TimerEvent: {}
+[8.529876] (-) TimerEvent: {}
+[8.630282] (-) TimerEvent: {}
+[8.730685] (-) TimerEvent: {}
+[8.831095] (-) TimerEvent: {}
+[8.931493] (-) TimerEvent: {}
+[9.031914] (-) TimerEvent: {}
+[9.132316] (-) TimerEvent: {}
+[9.194999] (turtlesim) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable turtle_move\x1b[0m\n'}
+[9.232433] (-) TimerEvent: {}
+[9.332816] (-) TimerEvent: {}
+[9.433200] (-) TimerEvent: {}
+[9.510672] (turtlesim) StdoutLine: {'line': b'[ 99%] Built target turtle_move\n'}
+[9.533331] (-) TimerEvent: {}
+[9.633760] (-) TimerEvent: {}
+[9.734149] (-) TimerEvent: {}
+[9.834529] (-) TimerEvent: {}
+[9.934893] (-) TimerEvent: {}
+[10.035271] (-) TimerEvent: {}
+[10.135662] (-) TimerEvent: {}
+[10.236052] (-) TimerEvent: {}
+[10.336443] (-) TimerEvent: {}
+[10.436833] (-) TimerEvent: {}
+[10.537222] (-) TimerEvent: {}
+[10.637631] (-) TimerEvent: {}
+[10.738016] (-) TimerEvent: {}
+[10.838407] (-) TimerEvent: {}
+[10.938797] (-) TimerEvent: {}
+[11.039184] (-) TimerEvent: {}
+[11.139579] (-) TimerEvent: {}
+[11.239977] (-) TimerEvent: {}
+[11.340368] (-) TimerEvent: {}
+[11.440757] (-) TimerEvent: {}
+[11.541153] (-) TimerEvent: {}
+[11.641568] (-) TimerEvent: {}
+[11.741960] (-) TimerEvent: {}
+[11.842348] (-) TimerEvent: {}
+[11.942736] (-) TimerEvent: {}
+[12.043149] (-) TimerEvent: {}
+[12.143540] (-) TimerEvent: {}
+[12.243934] (-) TimerEvent: {}
+[12.344324] (-) TimerEvent: {}
+[12.444713] (-) TimerEvent: {}
+[12.545107] (-) TimerEvent: {}
+[12.645500] (-) TimerEvent: {}
+[12.745886] (-) TimerEvent: {}
+[12.846271] (-) TimerEvent: {}
+[12.946650] (-) TimerEvent: {}
+[13.047047] (-) TimerEvent: {}
+[13.147438] (-) TimerEvent: {}
+[13.247829] (-) TimerEvent: {}
+[13.348224] (-) TimerEvent: {}
+[13.448622] (-) TimerEvent: {}
+[13.549017] (-) TimerEvent: {}
+[13.649428] (-) TimerEvent: {}
+[13.749810] (-) TimerEvent: {}
+[13.850195] (-) TimerEvent: {}
+[13.950584] (-) TimerEvent: {}
+[14.050973] (-) TimerEvent: {}
+[14.151356] (-) TimerEvent: {}
+[14.251988] (-) TimerEvent: {}
+[14.352477] (-) TimerEvent: {}
+[14.452799] (-) TimerEvent: {}
+[14.553166] (-) TimerEvent: {}
+[14.653514] (-) TimerEvent: {}
+[14.753855] (-) TimerEvent: {}
+[14.854207] (-) TimerEvent: {}
+[14.954561] (-) TimerEvent: {}
+[15.054894] (-) TimerEvent: {}
+[15.063850] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[15.155044] (-) TimerEvent: {}
+[15.255394] (-) TimerEvent: {}
+[15.355753] (-) TimerEvent: {}
+[15.456095] (-) TimerEvent: {}
+[15.556434] (-) TimerEvent: {}
+[15.656787] (-) TimerEvent: {}
+[15.706298] (turtlesim) StdoutLine: {'line': b'[100%] Built target mimic\n'}
+[15.725137] (turtlesim) CommandEnded: {'returncode': 0}
+[15.756878] (-) TimerEvent: {}
+[15.857180] (-) TimerEvent: {}
+[15.957564] (-) TimerEvent: {}
+[16.042638] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[16.055713] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim'], 'cwd': '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'nerglite'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1387'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/nerglite/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/nerglite'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'id_ID.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nerglite'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/nerglite/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_DATA_HOME', '/home/nerglite/.local/share'), ('XDG_CONFIG_HOME', '/home/nerglite/.config'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/nerglite/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX7sXxTq/agent.1313'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/home/nerglite/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.057857] (-) TimerEvent: {}
+[16.069538] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.070061] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[16.070441] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim\n'}
+[16.070832] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[16.071140] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[16.071414] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[16.071696] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[16.071995] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[16.072287] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[16.072595] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[16.072919] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[16.073203] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[16.073517] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[16.073674] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[16.073901] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[16.074119] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[16.074347] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[16.074595] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[16.074825] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[16.075065] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[16.075294] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[16.075534] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[16.075728] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.075953] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[16.076202] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[16.076411] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[16.076584] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[16.076808] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[16.077045] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[16.077269] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[16.077543] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[16.077738] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[16.077924] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[16.078135] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[16.078354] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[16.078577] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[16.078809] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[16.079032] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[16.079258] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[16.079478] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[16.079711] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[16.079941] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[16.080110] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[16.080330] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[16.080554] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[16.080781] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[16.081002] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[16.081225] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[16.081525] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[16.081686] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[16.082073] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[16.082475] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[16.082841] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[16.083984] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[16.084268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim\n'}
+[16.084505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[16.084734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[16.084945] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[16.085182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[16.085339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[16.085831] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[16.086078] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[16.086356] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.086516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[16.086690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[16.086863] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[16.087036] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[16.087209] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[16.087454] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[16.087608] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[16.087752] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[16.087950] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.088177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim\n'}
+[16.088424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[16.088630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[16.088803] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[16.089024] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[16.089262] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[16.089505] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[16.089684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[16.089857] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[16.090110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[16.090284] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[16.090462] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[16.090635] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[16.090860] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[16.091138] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[16.091320] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[16.091495] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[16.091668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[16.091840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[16.092063] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[16.092318] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[16.092498] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[16.092672] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[16.092908] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[16.093092] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[16.093267] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[16.093482] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[16.093708] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[16.093955] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[16.094142] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[16.094317] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[16.094540] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[16.094779] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[16.094964] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[16.095200] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[16.095379] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[16.095598] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[16.095834] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[16.096096] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[16.096274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim\n'}
+[16.096448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[16.096621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[16.096794] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[16.097026] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.097285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[16.097478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[16.097652] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.097826] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[16.098005] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.098267] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.098461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[16.098637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[16.098811] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[16.098991] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.099165] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.099339] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.099511] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.099740] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.099968] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.100214] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.100393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim\n'}
+[16.100566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[16.100799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[16.100978] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[16.101275] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[16.101482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[16.101659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[16.101833] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[16.102008] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[16.102190] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[16.102417] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[16.102712] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.102872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[16.103052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[16.103226] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[16.103461] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[16.103626] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[16.103801] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[16.103981] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[16.104155] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[16.104329] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[16.104555] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[16.104803] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[16.104956] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[16.105101] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[16.105341] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.105588] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[16.106075] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[16.106300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim\n'}
+[16.106568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[16.106741] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[16.106917] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.107171] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[16.107347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[16.107522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[16.107702] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.107926] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[16.108164] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.108344] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[16.108586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[16.108839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[16.108995] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.109170] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[16.109345] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.109542] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[16.109797] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.109957] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[16.110132] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.110306] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[16.110531] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.110780] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[16.110933] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[16.111449] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.111655] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[16.112334] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[16.112573] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[16.112803] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[16.112996] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[16.113241] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[16.113486] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[16.113648] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[16.113795] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[16.114145] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[16.114325] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[16.114514] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[16.114742] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[16.114973] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[16.115172] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[16.115443] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[16.115620] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[16.115870] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[16.116042] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[16.116245] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[16.116451] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[16.116698] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[16.116921] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[16.117147] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[16.117376] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[16.117621] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[16.117825] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[16.118005] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[16.118199] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[16.118528] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[16.118722] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[16.118942] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[16.119185] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[16.119428] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.119742] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.120038] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.120341] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[16.120834] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.121228] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.121622] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[16.157970] (-) TimerEvent: {}
+[16.195861] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[16.196061] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[16.196165] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[16.196254] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[16.196341] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[16.196426] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[16.196510] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[16.196596] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[16.196679] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[16.196763] (turtlesim) StdoutLine: {'line': b"Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[16.196846] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[16.196958] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[16.197042] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[16.197126] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[16.197210] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[16.197294] (turtlesim) StdoutLine: {'line': b"Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[16.203413] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.204442] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.204915] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.205785] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.206252] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.207069] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.207437] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[16.208098] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[16.208451] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[16.208829] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[16.209094] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[16.209604] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[16.209887] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[16.210189] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[16.210633] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[16.210976] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[16.211269] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[16.211519] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[16.211937] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[16.212260] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[16.212548] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[16.212855] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[16.213277] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[16.213609] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[16.213908] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[16.214192] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[16.214633] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[16.214963] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[16.215261] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[16.215542] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[16.215983] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[16.216262] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[16.216562] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[16.216888] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[16.217450] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[16.229888] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[16.230339] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[16.232960] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[16.233251] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_move\n'}
+[16.235448] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_move" to ""\n'}
+[16.235847] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/draw_square\n'}
+[16.241760] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[16.242082] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/mimic\n'}
+[16.247503] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[16.247802] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images\n'}
+[16.247958] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[16.248195] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[16.248531] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[16.248833] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[16.249071] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[16.249313] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[16.249572] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[16.249850] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[16.250110] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[16.250479] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/launch\n'}
+[16.250737] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[16.250980] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[16.251498] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[16.251813] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[16.252108] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[16.252548] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[16.252864] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[16.253184] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[16.253493] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[16.253975] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[16.254275] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[16.254588] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/package.dsv\n'}
+[16.255091] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[16.255485] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[16.255790] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.256275] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.256594] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.256978] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[16.257311] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.257832] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.258051] (-) TimerEvent: {}
+[16.258316] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.258644] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.258937] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[16.259414] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.259758] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.260099] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.260455] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[16.260915] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.261255] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[16.261634] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.261934] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[16.262371] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.262682] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.263020] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.263351] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.263802] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.264095] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.264444] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[16.264695] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[16.265129] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/package.xml\n'}
+[16.268668] (turtlesim) CommandEnded: {'returncode': 0}
+[16.358154] (-) TimerEvent: {}
+[16.458436] (-) TimerEvent: {}
+[16.558718] (-) TimerEvent: {}
+[16.624455] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[16.625386] (-) EventReactorShutdown: {}

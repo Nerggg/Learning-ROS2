@@ -1,8 +1,8 @@
-# Install script for directory: /media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/turtlesim__py
+# Install script for directory: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/turtlesim__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/install/turtlesim")
+  set(CMAKE_INSTALL_PREFIX "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

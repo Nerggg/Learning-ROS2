@@ -1,0 +1,8 @@
+[01m[K/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim/src/turtle_move.cpp:[m[K In constructor ‘[01m[KTurtleControllerNode::TurtleControllerNode()[m[K’:
+[01m[K/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim/src/turtle_move.cpp:12:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+   12 |         this->get_parameter("linear_speed", [01;31m[Kargv[m[K[1]);
+      |                                             [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_move.dir/build.make:76: CMakeFiles/turtle_move.dir/src/turtle_move.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/turtle_move.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,13 +1,13 @@
 {
   "package_name": "turtlesim",
   "non_idl_tuples": [
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:action/RotateAbsolute.action",
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:msg/Color.msg",
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:msg/Pose.msg",
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:srv/Kill.srv",
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:srv/SetPen.srv",
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:srv/Spawn.srv",
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:srv/TeleportAbsolute.srv",
-    "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim:srv/TeleportRelative.srv"
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:action/RotateAbsolute.action",
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:msg/Color.msg",
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:msg/Pose.msg",
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:srv/Kill.srv",
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:srv/SetPen.srv",
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:srv/Spawn.srv",
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:srv/TeleportAbsolute.srv",
+    "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim:srv/TeleportRelative.srv"
   ]
 }

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim"
+CMAKE_SOURCE_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim"
+CMAKE_BINARY_DIR = "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim"
 
 # Utility rule file for turtlesim_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/turtlesim_uninstall.dir/compiler_depend.make
 include CMakeFiles/turtlesim_uninstall.dir/progress.make
 
 CMakeFiles/turtlesim_uninstall:
-	/usr/bin/cmake -P /media/nerglite/New\ Volume/coolyeah/URO/TUGAS\ 1/build/turtlesim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /media/nerglite/New\ Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 turtlesim_uninstall: CMakeFiles/turtlesim_uninstall
 turtlesim_uninstall: CMakeFiles/turtlesim_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/turtlesim_uninstall.dir/clean:
 .PHONY : CMakeFiles/turtlesim_uninstall.dir/clean
 
 CMakeFiles/turtlesim_uninstall.dir/depend:
-	cd "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/TUGAS 1/build/turtlesim/CMakeFiles/turtlesim_uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim" "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim/CMakeFiles/turtlesim_uninstall.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/turtlesim_uninstall.dir/depend
 
