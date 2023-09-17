@@ -71,8 +71,10 @@ ament_target_dependencies(mimic ${dependencies})
 target_link_libraries(mimic "${cpp_typesupport_target}")
 add_executable(turtle_action_server src/turtle_action_server.cpp)
 ament_target_dependencies(turtle_action_server rclcpp rclcpp_action std_msgs geometry_msgs)
+add_executable(square_action_server src/square_action_server.cpp)
+ament_target_dependencies(square_action_server rclcpp rclcpp_action turtlesim geometry_msgs)
 
-install(TARGETS turtlesim_node turtle_teleop_key turtle_move turtle_angle turtle_go_here draw_square mimic turtle_action_server
+install(TARGETS turtlesim_node turtle_teleop_key turtle_move turtle_angle turtle_go_here draw_square mimic turtle_action_server, square_action_server
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY images
