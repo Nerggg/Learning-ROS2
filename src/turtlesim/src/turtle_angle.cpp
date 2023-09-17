@@ -37,7 +37,7 @@ private:
 
 int main(int argc, char** argv) {
     if (argc < 3) {
-        std::cerr << "Usage: " << argv[0] << " <x> <y>" << std::endl;
+        RCLCPP_ERROR(rclcpp::get_logger("turtle_tracker"), "Usage: %s <x> <y>", argv[0]);
         return 1;
     }
 

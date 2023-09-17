@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:action/RotateAbsolute.action",
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:msg/Color.msg",
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:msg/Pose.msg",
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:srv/Kill.srv",
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:srv/SetPen.srv",
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:srv/Spawn.srv",
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim:srv/TeleportRelative.srv"
+  ]
+}
