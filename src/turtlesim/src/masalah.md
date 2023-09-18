@@ -1,2 +1,3 @@
 - `turtle_angle` setelah dimasukin parameter, gaada output apa2. kura2 ga gerak dan di log ros2 juga nggak ada keluar apa apa
 - `turtle_go_here` setelah kura2 mutar menghadap titik, kura2 ga maju
+- `turtle_square` setelah dipanggil, kura2 ga gerak

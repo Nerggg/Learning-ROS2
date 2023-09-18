@@ -1,0 +1,515 @@
+[0.022s] Invoking command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim -DCMAKE_INSTALL_PREFIX=/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim
+[0.040s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.258s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.259s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.301s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.305s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.315s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.562s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.641s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.643s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.832s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.047s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.198s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.209s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.702s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.400s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.402s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.441s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.441s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.441s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.441s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.473s] -- Found PythonExtra: .so  
+[2.566s] -- Configuring done
+[2.730s] -- Generating done
+[2.736s] -- Build files have been written to: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim
+[2.752s] Invoked command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim -DCMAKE_INSTALL_PREFIX=/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim
+[2.755s] Invoking command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim -- -j4 -l4
+[2.821s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.845s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.865s] [  2%] Built target ament_cmake_python_copy_turtlesim
+[3.298s] running egg_info
+[3.299s] creating turtlesim.egg-info
+[3.299s] writing turtlesim.egg-info/PKG-INFO
+[3.300s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[3.300s] writing top-level names to turtlesim.egg-info/top_level.txt
+[3.301s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[3.304s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[3.305s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[3.346s] [  2%] Built target ament_cmake_python_build_turtlesim_egg
+[4.695s] [  2%] Built target turtlesim__cpp
+[4.717s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.820s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.841s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.995s] [  5%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o[0m
+[5.306s] [  6%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o[0m
+[5.418s] [  7%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o[0m
+[5.532s] [  8%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o[0m
+[5.673s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o[0m
+[5.811s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o[0m
+[5.955s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o[0m
+[6.094s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o[0m
+[6.231s] [ 13%] [32m[1mLinking C shared library libturtlesim__rosidl_generator_c.so[0m
+[6.289s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[6.317s] [ 14%] Built target turtlesim__rosidl_generator_c
+[6.339s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.062s] [ 16%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o[0m
+[7.454s] [ 17%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o[0m
+[7.488s] [ 18%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[8.136s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o[0m
+[8.567s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o[0m
+[8.831s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o[0m
+[8.850s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[8.863s] [ 23%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[9.519s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o[0m
+[9.528s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[9.832s] [ 26%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[9.842s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o[0m
+[10.218s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o[0m
+[10.520s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o[0m
+[10.681s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o[0m
+[10.830s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[10.919s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[11.509s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o[0m
+[11.529s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o[0m
+[11.614s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[11.855s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[12.299s] [ 36%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[12.400s] [ 36%] Built target turtlesim__rosidl_typesupport_cpp
+[12.416s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o[0m
+[12.422s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.512s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o[0m
+[12.880s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[13.285s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o[0m
+[13.468s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[13.912s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[14.181s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[14.406s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o[0m
+[14.845s] [ 45%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[14.927s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[14.966s] [ 47%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[15.056s] [ 48%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[15.096s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[15.141s] [ 50%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[15.233s] [ 51%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[15.322s] [ 52%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[15.379s] [ 53%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so[0m
+[15.413s] [ 54%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[15.504s] [ 55%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[15.561s] [ 55%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[15.584s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.593s] [ 57%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[15.670s] [ 57%] Built target turtlesim__rosidl_typesupport_introspection_c
+[15.692s] [ 58%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[15.863s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[15.997s] [ 60%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[16.001s] [ 61%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.178s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[16.199s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[16.220s] [ 62%] [32mBuilding CXX object CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o[0m
+[16.242s] [ 63%] [32mBuilding CXX object CMakeFiles/turtle_go_here.dir/src/turtle_go_here.cpp.o[0m
+[17.342s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[17.494s] [ 65%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o[0m
+[17.570s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o[0m
+[17.643s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o[0m
+[17.720s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[17.797s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o[0m
+[17.875s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[17.951s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[18.028s] [ 72%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so[0m
+[18.128s] [ 72%] Built target turtlesim__rosidl_typesupport_c
+[18.174s] [ 73%] [32mBuilding CXX object CMakeFiles/turtle_angle.dir/src/turtle_angle.cpp.o[0m
+[26.430s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[27.430s] [ 75%] [32m[1mLinking CXX executable turtle_square[0m
+[27.949s] [ 75%] Built target turtle_square
+[27.992s] [ 76%] [32mBuilding CXX object CMakeFiles/turtle_move.dir/src/turtle_move.cpp.o[0m
+[38.099s] [ 77%] [32m[1mLinking CXX executable turtle_go_here[0m
+[38.185s] [ 78%] [32m[1mLinking CXX executable turtle_angle[0m
+[39.300s] [ 78%] Built target turtle_angle
+[39.337s] [ 78%] Built target turtle_go_here
+[39.345s] [ 79%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[39.382s] [ 79%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[40.428s] [ 80%] [32m[1mLinking CXX executable turtle_move[0m
+[41.067s] [ 80%] Built target turtle_move
+[41.114s] [ 81%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[53.651s] [ 82%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[54.326s] [ 82%] Built target turtle_teleop_key
+[54.370s] [ 82%] Built target turtlesim
+[54.418s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[56.528s] [ 83%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[59.839s] [ 83%] Built target turtlesim__py
+[59.884s] [ 84%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o[0m
+[60.262s] [ 85%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o[0m
+[60.532s] [ 86%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o[0m
+[60.806s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o[0m
+[60.934s] [ 88%] [32m[1mLinking CXX executable draw_square[0m
+[61.086s] [ 88%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o[0m
+[61.374s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o[0m
+[61.649s] [ 90%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o[0m
+[61.904s] [ 91%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o[0m
+[62.156s] [ 91%] Built target draw_square
+[62.175s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so[0m
+[62.175s] [ 93%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[62.201s] [ 94%] [32m[1mLinking CXX executable mimic[0m
+[62.273s] [ 94%] Built target turtlesim__rosidl_generator_py
+[62.328s] [ 95%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[62.753s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[62.849s] [ 96%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[62.893s] [ 97%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[63.317s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[63.409s] [ 98%] Built target mimic
+[63.414s] [ 98%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[63.453s] [ 98%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o[0m
+[63.888s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[63.984s] [ 99%] Built target turtlesim__rosidl_typesupport_c__pyext
+[76.944s] [100%] [32m[1mLinking CXX executable turtlesim_node[0m
+[79.708s] [100%] Built target turtlesim_node
+[79.728s] Invoked command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim -- -j4 -l4
+[80.064s] Invoking command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim
+[80.077s] -- Install configuration: ""
+[80.078s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[80.078s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim
+[80.079s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action
+[80.079s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[80.079s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[80.079s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[80.080s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[80.080s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[80.080s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[80.080s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg
+[80.081s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[80.081s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[80.081s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[80.081s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[80.082s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[80.082s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[80.082s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[80.082s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[80.083s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[80.083s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[80.083s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[80.084s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[80.084s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv
+[80.084s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[80.084s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[80.085s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[80.085s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[80.085s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[80.085s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[80.086s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[80.086s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[80.086s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[80.087s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[80.087s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[80.087s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[80.088s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[80.088s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[80.088s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[80.088s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[80.089s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[80.089s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[80.089s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[80.090s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[80.090s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[80.090s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[80.090s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[80.091s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[80.091s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[80.091s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[80.092s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/library_path.sh
+[80.092s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[80.093s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[80.094s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""
+[80.094s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim
+[80.094s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action
+[80.094s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[80.095s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[80.095s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg
+[80.095s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[80.095s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[80.095s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[80.095s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[80.095s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv
+[80.096s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[80.096s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[80.096s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[80.096s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[80.096s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[80.097s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[80.097s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[80.098s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""
+[80.098s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim
+[80.098s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action
+[80.098s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[80.099s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[80.099s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[80.099s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[80.099s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[80.100s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg
+[80.100s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[80.100s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[80.100s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[80.100s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[80.101s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[80.101s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[80.101s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[80.102s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[80.102s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[80.102s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv
+[80.102s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[80.103s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[80.103s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[80.103s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[80.103s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[80.103s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[80.104s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[80.104s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[80.104s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[80.104s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[80.105s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[80.105s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[80.105s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[80.106s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[80.106s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[80.106s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[80.107s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[80.107s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[80.107s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[80.107s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[80.108s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[80.108s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim
+[80.108s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action
+[80.108s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[80.109s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[80.109s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[80.109s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg
+[80.109s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[80.110s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[80.110s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[80.110s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[80.110s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[80.111s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv
+[80.111s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[80.111s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[80.111s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[80.111s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[80.112s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[80.112s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[80.112s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[80.112s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[80.113s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""
+[80.113s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim
+[80.113s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action
+[80.114s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[80.114s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[80.114s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[80.114s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg
+[80.114s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[80.114s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[80.115s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[80.115s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[80.115s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[80.115s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[80.115s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv
+[80.116s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[80.116s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[80.116s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[80.116s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[80.116s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[80.117s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[80.117s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[80.117s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[80.117s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[80.117s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[80.118s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[80.118s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[80.119s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""
+[80.119s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[80.120s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""
+[80.120s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim
+[80.120s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action
+[80.120s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[80.120s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[80.121s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[80.121s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg
+[80.121s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[80.121s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[80.121s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[80.122s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[80.122s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[80.122s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv
+[80.122s] -- Up-to-date: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[80.122s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[80.123s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[80.123s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[80.123s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[80.123s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[80.123s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[80.124s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[80.124s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[80.124s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[80.124s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[80.125s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[80.126s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""
+[80.126s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[80.126s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""
+[80.127s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[80.127s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[80.127s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info
+[80.128s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt
+[80.128s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO
+[80.128s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt
+[80.128s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt
+[80.128s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[80.129s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[80.129s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[80.129s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[80.129s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[80.130s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[80.130s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[80.130s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[80.130s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[80.131s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[80.131s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[80.131s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[80.131s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[80.131s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[80.132s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[80.132s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[80.132s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[80.132s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[80.133s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[80.133s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[80.133s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[80.133s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[80.134s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[80.134s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[80.134s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[80.134s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[80.135s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[80.135s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[80.136s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[80.136s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[80.136s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[80.210s] Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[80.211s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...
+[80.211s] Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[80.211s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...
+[80.211s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...
+[80.211s] Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[80.211s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...
+[80.211s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...
+[80.211s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...
+[80.212s] Listing '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[80.212s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...
+[80.212s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...
+[80.212s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...
+[80.212s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...
+[80.212s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...
+[80.212s] Compiling '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...
+[80.219s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[80.220s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[80.220s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[80.221s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[80.222s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[80.223s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[80.223s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[80.224s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""
+[80.224s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[80.225s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Color.idl
+[80.225s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Pose.idl
+[80.225s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill.idl
+[80.226s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[80.226s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[80.226s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[80.227s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[80.227s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[80.227s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Color.msg
+[80.228s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/msg/Pose.msg
+[80.228s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill.srv
+[80.228s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[80.228s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[80.229s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[80.229s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[80.230s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[80.230s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[80.230s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[80.231s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[80.231s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[80.231s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[80.232s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[80.232s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[80.232s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[80.233s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[80.233s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtlesim_node
+[80.246s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[80.246s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[80.249s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[80.249s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_move
+[80.252s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_move" to ""
+[80.252s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_angle
+[80.257s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_angle" to ""
+[80.258s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_go_here
+[80.264s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_go_here" to ""
+[80.264s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_square
+[80.266s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/turtle_square" to ""
+[80.266s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/draw_square
+[80.273s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/draw_square" to ""
+[80.273s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/mimic
+[80.278s] -- Set runtime path of "/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/lib/turtlesim/mimic" to ""
+[80.279s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images
+[80.279s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/ardent.png
+[80.279s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/bouncy.png
+[80.279s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/crystal.png
+[80.280s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/dashing.png
+[80.280s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/eloquent.png
+[80.280s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/foxy.png
+[80.280s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/galactic.png
+[80.281s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/humble.png
+[80.281s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/images/rolling.png
+[80.281s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/launch
+[80.281s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[80.282s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[80.282s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[80.283s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[80.283s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[80.283s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/path.sh
+[80.284s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/environment/path.dsv
+[80.284s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.bash
+[80.284s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.sh
+[80.285s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.zsh
+[80.285s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/local_setup.dsv
+[80.285s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/package.dsv
+[80.286s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[80.286s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[80.287s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[80.287s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[80.287s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[80.288s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[80.288s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[80.288s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[80.289s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[80.289s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[80.290s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[80.290s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[80.291s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[80.291s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[80.291s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[80.292s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[80.292s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[80.292s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[80.293s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[80.293s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[80.293s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[80.294s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[80.294s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[80.294s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[80.295s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[80.295s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[80.295s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[80.296s] -- Installing: /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim/share/turtlesim/package.xml
+[80.300s] Invoked command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim

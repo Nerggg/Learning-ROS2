@@ -1,0 +1,2 @@
+Invoking command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim': /usr/bin/cmake /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim -DCMAKE_INSTALL_PREFIX=/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim
+Invoked command in '/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/build/turtlesim' returned '1': /usr/bin/cmake /media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/src/turtlesim -DCMAKE_INSTALL_PREFIX=/media/nerglite/New Volume/coolyeah/URO/Tucil-ROS2-VLG/install/turtlesim

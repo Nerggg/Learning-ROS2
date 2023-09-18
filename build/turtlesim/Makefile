@@ -406,6 +406,19 @@ turtlesim_node/fast:
 .PHONY : turtlesim_node/fast
 
 #=============================================================================
+# Target rules for targets named turtle_square
+
+# Build rule for target.
+turtle_square: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_square
+.PHONY : turtle_square
+
+# fast build rule for target.
+turtle_square/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_square.dir/build.make CMakeFiles/turtle_square.dir/build
+.PHONY : turtle_square/fast
+
+#=============================================================================
 # Target rules for targets named turtle_go_here
 
 # Build rule for target.
@@ -2248,6 +2261,30 @@ src/turtle_move.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_move.dir/build.make CMakeFiles/turtle_move.dir/src/turtle_move.cpp.s
 .PHONY : src/turtle_move.cpp.s
 
+src/turtle_square.o: src/turtle_square.cpp.o
+.PHONY : src/turtle_square.o
+
+# target to build an object file
+src/turtle_square.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_square.dir/build.make CMakeFiles/turtle_square.dir/src/turtle_square.cpp.o
+.PHONY : src/turtle_square.cpp.o
+
+src/turtle_square.i: src/turtle_square.cpp.i
+.PHONY : src/turtle_square.i
+
+# target to preprocess a source file
+src/turtle_square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_square.dir/build.make CMakeFiles/turtle_square.dir/src/turtle_square.cpp.i
+.PHONY : src/turtle_square.cpp.i
+
+src/turtle_square.s: src/turtle_square.cpp.s
+.PHONY : src/turtle_square.s
+
+# target to generate assembly for a file
+src/turtle_square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_square.dir/build.make CMakeFiles/turtle_square.dir/src/turtle_square.cpp.s
+.PHONY : src/turtle_square.cpp.s
+
 src/turtlesim.o: src/turtlesim.cpp.o
 .PHONY : src/turtlesim.o
 
@@ -2369,6 +2406,7 @@ help:
 	@echo "... turtle_angle"
 	@echo "... turtle_go_here"
 	@echo "... turtle_move"
+	@echo "... turtle_square"
 	@echo "... turtle_teleop_key"
 	@echo "... turtlesim__rosidl_generator_c"
 	@echo "... turtlesim__rosidl_generator_py"
@@ -2601,6 +2639,9 @@ help:
 	@echo "... src/turtle_move.o"
 	@echo "... src/turtle_move.i"
 	@echo "... src/turtle_move.s"
+	@echo "... src/turtle_square.o"
+	@echo "... src/turtle_square.i"
+	@echo "... src/turtle_square.s"
 	@echo "... src/turtlesim.o"
 	@echo "... src/turtlesim.i"
 	@echo "... src/turtlesim.s"

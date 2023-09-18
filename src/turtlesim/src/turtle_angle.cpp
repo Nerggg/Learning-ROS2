@@ -2,6 +2,7 @@
 #include "geometry_msgs/msg/pose.hpp"
 #include <cstdlib> // Untuk konversi dari string ke tipe data numerik
 #include <cmath>
+#include <iostream> // Untuk output ke terminal
 
 class TurtleTrackerNode : public rclcpp::Node {
 public:
@@ -25,9 +26,9 @@ private:
         double angle_rad = std::atan2(y_target_ - y_turtle, x_target_ - x_turtle);
         double angle_deg = angle_rad * 180.0 / M_PI;
 
-        RCLCPP_INFO(this->get_logger(), "Received turtle pose data.");
-        RCLCPP_INFO(this->get_logger(), "Turtle is at (%.2f, %.2f)", x_turtle, y_turtle);
-        RCLCPP_INFO(this->get_logger(), "Angle to target (%.2f, %.2f): %.2f degrees", x_target_, y_target_, angle_deg);
+        std::cout << "Turtle is at (" << x_turtle << ", " << y_turtle << ")" << std::endl;
+        std::cout << "Angle to target (" << x_target_ << ", " << y_target_ << "): " << angle_deg << " degrees" << std::endl;
+
     }
 
     rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr turtle_pose_sub_;
@@ -49,4 +50,3 @@ int main(int argc, char** argv) {
     rclcpp::shutdown();
     return 0;
 }
-

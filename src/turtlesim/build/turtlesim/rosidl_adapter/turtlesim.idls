@@ -1,8 +1,0 @@
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
-/home/qika/Documents/ROS/Tucil-ROS2-VLG/src/turtlesim/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl
