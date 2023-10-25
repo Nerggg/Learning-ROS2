@@ -6,10 +6,11 @@
 
 class TurtleTrackerNode : public rclcpp::Node {
 public:
-    TurtleTrackerNode(double x, double y) : Node("turtle_tracker") {
-        // Set parameter values
-        x_target_ = x;
-        y_target_ = y;
+    TurtleTrackerNode() : Node("turtle_tracker") {
+      // Ini udah ga dipake lagi, soalnya pakai request dari service
+      //        // Set parameter values
+//        x_target_ = x;
+//        y_target_ = y;
 
         // TODO: ganti turtlesim::srv::Theta dengan service yang sesuai karena asumsiku ini nama packageny turtlesim (bisa dilihat di folder srv terdapat Theta.srv)
         service_ = this->create_service<turtlesim::srv::Theta>(
@@ -82,16 +83,18 @@ private:
 };
 
 int main(int argc, char** argv) {
-    if (argc < 3) {
-        RCLCPP_ERROR(rclcpp::get_logger("turtle_tracker"), "Usage: %s <x> <y>", argv[0]);
-        return 1;
-    }
 
-    double x_target = std::atof(argv[1]);
-    double y_target = std::atof(argv[2]);
+  // terima request dari service
+//    if (argc < 3) {
+//        RCLCPP_ERROR(rclcpp::get_logger("turtle_tracker"), "Usage: %s <x> <y>", argv[0]);
+//        return 1;
+//    }
+
+//    double x_target = std::atof(argv[1]);
+//    double y_target = std::atof(argv[2]);
 
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<TurtleTrackerNode>(x_target, y_target));
+    rclcpp::spin(std::make_shared<TurtleTrackerNode>());
     rclcpp::shutdown();
     return 0;
 }
