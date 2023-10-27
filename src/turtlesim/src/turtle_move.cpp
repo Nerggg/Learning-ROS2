@@ -5,10 +5,12 @@
 
 class TurtleControllerNode : public rclcpp::Node {
 public:
-    TurtleControllerNode(double linear_speed, double angular_speed) : Node("turtle_controller") {
+    TurtleControllerNode(double linear_speed = 1.0, double angular_speed = 1.0) : Node("turtle_controller") {
         // Set parameter values
-        linear_speed_ = linear_speed;
-        angular_speed_ = angular_speed;
+        this->declare_parameter("linear_speed");
+        this->declare_parameter("angular_speed");
+        this->set_parameter(rclcpp::Parameter("linear_speed", linear_speed));
+        this->set_parameter(rclcpp::Parameter("angular_speed", angular_speed));
         has_cleared_drawing_ = false; // Tandai bahwa drawing belum dihapus
 
         // Create a publisher to control the turtle's movement
@@ -40,8 +42,6 @@ private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr turtle_pub_;
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Client<std_srvs::srv::Empty>::SharedPtr clear_client_;
-    double linear_speed_;
-    double angular_speed_;
     bool has_cleared_drawing_;
 };
 
