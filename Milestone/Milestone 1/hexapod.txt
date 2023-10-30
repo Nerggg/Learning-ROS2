@@ -1,0 +1,45 @@
+Hexapod Robot
+
+Sensor:
+Lidar
+Sensor Warna
+CMP Sensor
+
+Actuator:
+Servo Motor
+Gripper
+
+Topic:
+1. /scan (sensor_msgs/LaserScan)
+2. /cmd_vel (geometry_msgs/Twist)
+3. /odom (nav_msgs/Odometry)
+4. /joint_states (sensor_msgs/JointState)
+5. /gripper (std_msgs/Float64)
+6. /lidar (std_msgs/Float64)
+7. /color_sensor (std_msgs/Float64)
+8. /cmps (std_msgs/Float64)
+
+Node:
+1. lidar_node
+a) Subscribes to /scan
+b) Publishes to /lidar
+
+2. color_sensor_node
+a) Subscribes to /color_sensor
+b) Publishes to /color_sensor
+
+2. motor_node
+a) Subscribes to /cmd_vel
+b) Publishes to /joint_states
+
+3. odometry_node
+a) Subscribes to /cmd_vel
+b) Publishes to /odom
+
+4. gripper_node
+a) Subscribes to /gripper
+b) Publishes to /joint_states
+
+5. cmps_node
+a) Subscribes to /odom
+b) Publishes to /cmps
